@@ -1,0 +1,34 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.box{
+  /* border:2px solid black; */
+  padding: 1rem 2rem;
+  width: 29vw;
+  margin: auto;
+  box-shadow: 1px 1px 5px gray;
+  background-color: ghostwhite;
+  z-index: 1;
+}
+
+.addbtn{
+  float: right;
+  margin-top:.9rem;
+  }
+
+  .dlt_btn{
+    margin-left: 1rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+    color: gray;
+    font-weight: bolder;
+
+  }
+  .dlt_btn:hover{
+    transition-duration: .3s;
+    color: rgb(199, 12, 12);}
